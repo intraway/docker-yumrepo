@@ -1,6 +1,6 @@
 # Docker Yum Repository
 
-This is an tiny container based on [Alpine distro](https://alpinelinux.org/) that acts as a 'yum' repository to test your RPMs.
+This is a tiny container based on [Alpine distro](https://alpinelinux.org/) that acts as a 'yum' repository to test your RPMs.
 
 ---
 
