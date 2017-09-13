@@ -100,7 +100,7 @@ services:
 The docker image can be tuned using environment variables.
 
 ###### REPO_PORT
-Repository listening port. Use the `-e REPO_PORT=1024` to set the listening port.
+Repository listening port. Use the `-e REPO_PORT=80` to set the listening port.
 
 ###### REPO_PATH
 Base path where the repository will be created inside the container. Use the `-e REPO_PATH=/var/repo`.
