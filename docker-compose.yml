@@ -36,4 +36,3 @@ services:
       - ./extras/yum/container.repo:/etc/yum.repos.d/container.repo:ro
       - /etc/localtime:/etc/localtime
     command: yum --disablerepo=* --enablerepo=container info dummy-package-1.0_SNAPSHOT
-

@@ -13,7 +13,7 @@ This is a tiny container based on [Alpine distro](https://alpinelinux.org/) that
 ---
 ### Docker Image
 
-[![](https://images.microbadger.com/badges/version/intraway/yumrepo.svg)](https://microbadger.com/images/intraway/yumrepo "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/intraway/squid-proxy.svg)](https://microbadger.com/images/intraway/squid-proxy "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/commit/intraway/squid-proxy.svg)](https://microbadger.com/images/intraway/squid-proxy "Get your own commit badge on microbadger.com") [![](https://images.microbadger.com/badges/license/intraway/squid-proxy.svg)](https://microbadger.com/images/intraway/squid-proxy "Get your own license badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/intraway/yum-repo.svg)](https://microbadger.com/images/intraway/yum-repo "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/intraway/yum-repo.svg)](https://microbadger.com/images/intraway/yum-repo "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/commit/intraway/yum-repo.svg)](https://microbadger.com/images/intraway/yum-repo "Get your own commit badge on microbadger.com") [![](https://images.microbadger.com/badges/license/intraway/yum-repo.svg)](https://microbadger.com/images/intraway/yum-repo "Get your own license badge on microbadger.com")
 
 ---
 
@@ -59,7 +59,7 @@ version: '2'
 
 services:
   yumrepo:
-    image: intraway/yumrepo
+    image: intraway/yum-repo
     hostname: yumrepo
     container_name: yumrepo
     ports:
