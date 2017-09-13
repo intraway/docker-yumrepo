@@ -1,0 +1,4 @@
+[container]
+name=Container Repo
+baseurl=http://yumrepo/\$releasever/\$basearch/
+gpgcheck=0
