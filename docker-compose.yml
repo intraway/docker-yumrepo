@@ -2,7 +2,7 @@ version: '2'
 
 services:
   yumrepo:
-    image: intraway/yumrepo
+    image: intraway/yum-repo
     hostname: yumrepo
     container_name: yumrepo
     ports:

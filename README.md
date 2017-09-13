@@ -35,7 +35,7 @@ This is a tiny container based on [Alpine distro](https://alpinelinux.org/) that
 You can manually run these commands:
 
 ```bash
-docker run -d -v <path_to_rpms>:/var/repo:rw intraway/yumrepo
+docker run -d -v <path_to_rpms>:/var/repo:rw intraway/yum-repo
 ```
 
 You must mount a directory inside of the container the contains all RPM's that you want serve.
